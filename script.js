@@ -79,7 +79,7 @@ const changelogText = `Changelog:
 
 v1.0
 
-Added Multiplayer mode with PVP and COOP options
+Added Multiplayer Mode (Public and Private Rooms)
 Display user highscore in the menu
 Added Tutorial
 Added a new 10000 seconds mode as well as the ability to change between gamemodes
