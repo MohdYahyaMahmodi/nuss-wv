@@ -59,12 +59,12 @@ function getMenuText() {
 Highscore: ${highscore} seconds
 
 1. Start
-2. Change mode
+2. Change Mode
 3. Multiplayer
 4. About
 5. Changelog
 6. Tutorial
-7. View Highscores
+7. Global Leaderboard
 `;
 }
 
