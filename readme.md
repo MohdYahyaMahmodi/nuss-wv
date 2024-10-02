@@ -1,6 +1,6 @@
-# Sleeping Simulator
+# New Ultimate Sleeping Simulator Web Version v1.0
 
-Sleeping Simulator is an interactive web-based game that challenges players to sleep for as long as possible. This project demonstrates the use of Node.js, Express.js, and Socket.IO to create a real-time multiplayer experience.
+New Ultimate Sleeping Simulator Web Version is an interactive web-based game that challenges players to sleep for as long as possible. This project demonstrates the use of Node.js, Express.js, and Socket.IO to create a real-time multiplayer experience.
 
 **[Try the Demo](https://nuss.mohdmahmodi.com)**
 
@@ -23,12 +23,12 @@ Sleeping Simulator is an interactive web-based game that challenges players to s
 
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/sleeping-simulator.git
+   git clone https://github.com/MohdYahyaMahmodi/nuss-wv.git
    ```
 
 2. Navigate to the project directory:
    ```
-   cd sleeping-simulator
+   cd nuss-wv
    ```
 
 3. Install dependencies:
@@ -82,4 +82,4 @@ This project is open source and available under the [MIT License](LICENSE).
 
 Mohd Mahmodi
 - Website: [Mohdmahmodi.com](https://mohdmahmodi.com)
-- Twitter: [@MohdMahmodi](https://x.com/MohdMahmodi)
+- Twitter: [@MohdMahmodi](https://twitter.com/MohdMahmodi)
