@@ -1,0 +1,32 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: monospace;
+}
+
+#terminal {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+#output {
+  white-space: pre-wrap;
+}
+
+#input-line {
+  display: flex;
+}
+
+#prompt {
+  margin-right: 5px;
+}
+
+#user-input {
+  background: none;
+  border: none;
+  color: white;
+  font-family: monospace;
+  outline: none;
+  flex-grow: 1;
+}
