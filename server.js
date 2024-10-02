@@ -1,5 +1,6 @@
 const express = require('express');
 const fs = require('fs');
+const path = require('path');
 const xss = require('xss');
 const app = express();
 const port = 3005;
@@ -8,6 +9,7 @@ const http = require('http').createServer(app);
 const io = require('socket.io')(http);
 
 app.use(express.json());
+app.use(express.static('.'));  // Serve static files from the current directory
 
 let highscores = {};
 let sleepSessions = {};
@@ -15,6 +17,11 @@ try {
     const data = fs.readFileSync('highscores.json', 'utf8');
     highscores = JSON.parse(data);
 } catch (err) {}
+
+// Serve the index.html file on the root route
+app.get('/', (req, res) => {
+    res.sendFile(path.join(__dirname, 'index.html'));
+});
 
 app.get('/highscores', (req, res) => {
     const highscoresArray = Object.values(highscores).sort((a, b) => b.score - a.score);
@@ -229,6 +236,6 @@ io.on('connection', (socket) => {
     });
 });
 
-app.use(express.static('public'));
-
-http.listen(port);
+http.listen(port, () => {
+    console.log(`Server running on port ${port}`);
+});
