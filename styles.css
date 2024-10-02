@@ -2,6 +2,7 @@ body {
   background-color: black;
   color: white;
   font-family: monospace;
+  font-size: 16px; /* Base font size */
 }
 
 #terminal {
@@ -29,4 +30,30 @@ body {
   font-family: monospace;
   outline: none;
   flex-grow: 1;
+  font-size: 16px; /* Ensure input text is not small */
+}
+
+/* Media query for mobile devices */
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 18px; /* Slightly larger base font size for mobile */
+  }
+
+  #terminal {
+    width: 95%; /* Wider terminal on mobile */
+    margin-top: 20px;
+  }
+
+  #user-input {
+    font-size: 18px; /* Match body font size */
+  }
+}
+
+/* Prevent iOS from zooming on input focus */
+@media screen and (-webkit-min-device-pixel-ratio: 0) { 
+  select,
+  textarea,
+  input {
+    font-size: 16px;
+  }
 }
