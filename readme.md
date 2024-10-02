@@ -83,3 +83,8 @@ This project is open source and available under the [MIT License](LICENSE).
 Mohd Mahmodi
 - Website: [Mohdmahmodi.com](https://mohdmahmodi.com)
 - Twitter: [@MohdMahmodi](https://twitter.com/MohdMahmodi)
+
+## Original Project
+
+Original project idea by Wave230
+Original GitHub repository: [https://github.com/NUSS-Community/NUSS](https://github.com/NUSS-Community/NUSS)

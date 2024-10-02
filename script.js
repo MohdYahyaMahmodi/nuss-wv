@@ -73,6 +73,9 @@ const aboutText = `New Ultimate Sleeping Simulator Web Version ${ver}
 The goal of the game:
 
 The goal of the game is to sleep the longest you can. You can sleep for as long as you want and wake up whenever you want. The game will keep track of how long you've slept and submit your score to the highscores.
+
+Original project idea by @wave230
+Original GitHub repository: https://github.com/NUSS-Community/NUSS
 `;
 
 const changelogText = `Changelog:
